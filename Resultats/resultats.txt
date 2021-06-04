@@ -1,0 +1,58 @@
+Frame 1
+*Ethernet 2 :
+----> MAC destination address : ff:ff:ff:ff:ff:ff
+----> MAC source address : 2c:56:dc:d2:86:ee
+Champ Ethernet Type : 0x0806 ARP
+
+
+Frame 2
+*Ethernet 2 :
+----> MAC destination address : 00:50:7f:05:7d:40
+----> MAC source address : 00:10:a4:86:2d:0b
+----> Type : 0x0800 (IPv4)
+*IP :
+--------> Version : 4
+--------> Header length : 20 bytes
+--------> Total Size (Header + data): 491 bytes
+--------> Identification: 0xe3ee (58350)
+--------> Flags :
+            Reserved bit: Not set
+            More fragments : Set
+            Don't fragment : Not set 
+--------> Fragment offset : 0000
+--------> Time to live : 64
+--------> Protocol : TCP
+--------> Header checksum : 0x4803 [Unverified] 
+--------> IP source adress : 10.33.182.178
+--------> IP destination adress : 194.109.137.218
+--------> No options
+*TCP :
+---------------> Source Port : 44734
+---------------> Destination Port : 80
+---------------> Sequence number : 0x3c9ca1ea (1016898026)
+---------------> Acknowledgment number : 0x3336ca11 (859228689)
+---------------> TCP Header length : 32 bytes
+---------------> Reserved : 000000
+---------------> Flags :
+                   Urgent : Not Set
+                   Acknowledgment : Set
+                   Push : Set
+                   Reset : Not Set
+                   Syn : Not Set
+                   Fin : Not Set
+---------------> Window : 5840
+---------------> Checksum : 8663 [unverified]
+---------------> TCP Options :
+                   > Option NOP
+                   > Option NOP
+                   > Time Stamp :
+                       Time Stamp Value : 0x027c420a
+                       Time Echo Reply Value : Ox2293f16a
+*HTTP :
+GET / HTTP/1.1
+Host: www.debian.org
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.0.0) Gecko/20020623 Debian/1.0.0-0.woody.1
+Accept: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,video/x-mng,image/png,image/jpeg,image/gif;q=0.2,text/css,*/*;q=0.1
+Accept-Encoding: gzip, deflate, compress;q=0.9
+Accept-Charset: ISO-8859-1, utf-8;q=0.66, *;q=0.66
+Keep-Alive: 300

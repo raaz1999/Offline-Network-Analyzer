@@ -1,0 +1,14 @@
+Pour faire fonctionner l'analyseur :
+
+1) Placez le fichier texte contenant les trames dans le dossier 'Trame'
+2) Vous pouvez directement double-cliquer sur le fichier main.py : c'est un script.
+3) La console apparaît et vous demande d'entrer le nom du fichier texte (inclure le .txt) à analyser
+4) On vous demande ensuite le nom du fichier texte dans lequel vous voulez sauvegarder les résultats (inclure le .txt)
+4) Les résultats sont affichés sur la console
+5) En parallèle, ces résultats sont sauvegardés dans le répertoire 'Resultats', dans le fichier de nom donné
+
+A NOTER:
+
+--> Pour le nom du fichier texte à analyser, si aucun nom n'est donné, le programme cherchera directement un fichier 'trame.txt'
+--> De la même manière le nom par défaut du fichier de résultats sera 'resultats.txt'
+--> Si vous donnez un nom déjà existant pour le fichier de résultat, le fichier existant sera écrasé.
